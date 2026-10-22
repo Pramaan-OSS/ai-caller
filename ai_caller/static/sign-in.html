@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in · AI Caller</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <main class="gate">
+    <p class="eyebrow">AI Caller</p>
+    <h1>Sign in</h1>
+    <p>Use managed sign-in to open the console.</p>
+    <p id="notice" role="status"></p>
+    <button class="btn-thread" id="social" type="button">Continue</button>
+    <form id="email-form">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" autocomplete="name">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="username" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required>
+      <button class="btn-thread" type="submit">Sign in with email</button>
+      <button class="quiet" id="signup" type="button">Create an account</button>
+    </form>
+  </main>
+  <script type="module" src="/static/sign-in.js"></script>
+</body>
+</html>

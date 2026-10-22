@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Caller</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="word">AI Caller<span class="dot"></span></div>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab" type="button" data-tab="agents" aria-current="page">Agents</button>
+      <button class="tab" type="button" data-tab="tools">Tools</button>
+      <button class="tab" type="button" data-tab="knowledge">Knowledge</button>
+      <button class="tab" type="button" data-tab="numbers">Numbers</button>
+      <button class="tab" type="button" data-tab="calls">Calls</button>
+      <button class="tab" type="button" data-tab="campaigns">Campaigns</button>
+      <button class="tab" type="button" data-tab="optouts">Opt-outs</button>
+      <button class="tab" type="button" data-tab="settings">Settings</button>
+    </nav>
+    <button class="quiet theme" id="theme" type="button">Dark</button>
+  </header>
+  <main id="main" data-thread-none>
+    <section class="chat msgs" id="next" aria-label="Next step"></section>
+    <section class="right view" id="view" aria-label="Records"></section>
+  </main>
+  <script src="/static/estimate-price.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
