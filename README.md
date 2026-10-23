@@ -1,3 +1,5 @@
+[![CI](https://github.com/Pramaan-OSS/ai-caller/actions/workflows/ci.yml/badge.svg)](https://github.com/Pramaan-OSS/ai-caller/actions/workflows/ci.yml)
+
 # AI Caller
 
 Phone agents for your own business. You write the prompt and the tools. Pramaan places the call, speaks, and hears. This app does not run a media server.
